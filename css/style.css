@@ -1,0 +1,113 @@
+/* Reset y Fuentes */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background: #573131;
+    color: #f3eeee;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilos para el contenedor del logo y el título */
+  .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  }
+  
+  .logo img {
+  border-radius: 100px;
+  width: 150px;
+  height: 90px;
+  }
+  
+  .header h1 {
+  margin: 0;
+  }
+  
+  /* BOTONES DE INICIO Y BARRA DE NAVEGACIÓN */
+  .main-nav {
+   margin-left: auto;
+  }
+  
+  .main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+  .main-nav ul li a {
+  color:#f3f2f2;
+  text-decoration:beige;
+  margin-left: 2rem;
+  display: flex;
+  list-style: none; /* Quita los puntos (viñetas) de la lista. */
+  gap: 15px; /*Espacio entre las secciones del menú nav */
+  }
+  
+    .btn-dona {
+    background-color: #9AAF94;
+    color: #333333;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 3px solid rgb(84, 53, 53);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+    .nav-button:hover {
+    background-color: #7F966F;
+  transform: scale(1.05);
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-social {
+    background-color: #E8A0BF;
+    padding: 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #333333;
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
