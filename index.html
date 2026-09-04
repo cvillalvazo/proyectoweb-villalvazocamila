@@ -22,7 +22,7 @@
     <header class="header">
     <div class="container header-inner">
       <a class="logo" href="#">
-        <img src="img/logocafe.jpg" alt="Logo Cafetería" height="70" />
+        <img src="img/lune6.png" alt="Logo Cafetería" height="70" />
       <nav class="main-nav" id="mainNav">
         <ul>
           <li><a href="#menu">Menu</a></li>
@@ -46,7 +46,31 @@
 
     <!--Estos son los botones que estan dentro del vídeo-->
 
-      <div class="hero-content container">
+      
+    </section> <!--Fin hero y cierra las estadísticas y todo-->
+
+      <!-- CARRUSEL DE IMÁGENES / LANZAMIENTOS / PRODUCTOS ETC -->
+    <section id="lanzamientos" class="carousel-section container">
+      <h2>Nuevos Lanzamientos</h2>
+
+      <div class="carousel" id="carousel">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide">
+            <img src="img/carrusel1.jpg" alt="Reservaciones Lune">
+            <p class="carousel-caption">Reservaciones Lune</p>
+          </div>
+          <div class="carousel-slide">
+            <img src="img/carrusel2.jpg" alt="Talleres">
+            <p class="carousel-caption">Talleres</p>
+          </div>
+          <div class="carousel-slide">
+            <img src="img/carrusel3.jpg" alt="Ubicaciones">
+            <p class="carousel-caption">Ubicaciones</p>
+          </div>
+        </div>
+
+        <!--estos son los botones que estan dentro del video-->
+        <div class="hero-content container">
         <div class="hero-actions">
           <a class="btn primary" href="https://forms.gle/9bGxM41iZmSR8NVj6">Nuestras sucursales</a>
           <a class="btn outline" href="#voluntariado">A domicilio</a>
@@ -69,7 +93,15 @@
           </div>
         </div>
       </div>
-    </section> <!--Fin hero y cierra las estadísticas y todo-->
+
+        <button class="carousel-btn prev" id="carouselPrev" aria-label="Anterior">&#10094;</button>
+        <button class="carousel-btn next" id="carouselNext" aria-label="Siguiente">&#10095;</button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <!-- FIN CARRUSEL -->
 
   <!--Aquí hay tres tarjetas para destacar proyectos, ventas, productos, servicios-->
 
@@ -132,7 +164,7 @@
         <i class="fa-brands fa-facebook-f"></i>
       </a>
 
-      <a href="https://www.instagram.com/" aria-label="Instagram">
+      <a href="https://www.instagram.com/camvpp/?__pwa=1" aria-label="Instagram">
         <i class="fa-brands fa-instagram"></i>
       </a>
 
@@ -153,7 +185,7 @@
 
   <div class="footer-bottom">
     <div class="container">
-      &copy; <span id="anio"></span> DEL NORTH CAPS
+      &copy; <span id="anio"></span> LUNE COFFEE
     </div>
   </div>
 
